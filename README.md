@@ -1,22 +1,27 @@
 # TEXT-ANALYSIS
 
-##Objective
+## Objective
+
 The objective was to extract textual data from given URLs, save the articles in text files, and perform text analysis to compute various variables. The process involves data extraction using Python programming with tools like Beautiful Soup.  Subsequently, textual analysis is conducted to calculate specific variables as outlined in the "Text Analysis" document.
 
-##Data Extraction
+## Data Extraction
+
 Extraction Criteria: Extract only the article title and text, excluding headers, footers, and other irrelevant content.
 Tools: Python libraries such as Beautiful Soup.
 
-##Steps
+## Steps
+
 Read URLs from Input file.
 Extract article title and text from each URL.
 Save the extracted content in text files, using the URL_ID as the filename.
 
-##Data Analysis
+## Data Analysis
+
 Analysis Criteria: Compute specific variables as described in "Text Analysis.docx".
 Programming Language: Python
 
-##Variables Computed
+## Variables Computed
+
 1.POSITIVE SCORE
 2.NEGATIVE SCORE
 3.POLARITY SCORE
